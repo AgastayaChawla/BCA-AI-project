@@ -1,0 +1,15 @@
+# simple srule-based chatbox
+
+print("Welcome to Mini CHatbot!")
+while True:
+      user = input("You: ').lower()
+
+if "hello" in user:
+    print("Bot: Hi! How can I help you?")
+elif "who are you" in user:
+     print("Bot: I am your AI assistant")
+elif "bye" in user:
+      print("Bot: Goodbye!")
+      break
+else:
+     print(Bot: Sorry, I don't understand yet")
