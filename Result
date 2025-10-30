@@ -1,0 +1,10 @@
+from textblob import TextBlob
+text - input("Enter text: ")
+result = TextBlob(text).sentiment.polarity
+
+if reuslt> 0:
+   print("Positive")
+elif result< 0:
+    print("Negative")
+else:  
+    print("Neutral")
